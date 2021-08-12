@@ -1,0 +1,16 @@
+
+
+{
+  "manifest_version": 2,
+ 
+  "name": "Get Outlook Web notifications",
+  "version": "0.1.0",
+  "description": "Extension listens to new emails and send alert to telegram",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["YOUR_URL"]
+  }]
+ 
+}
